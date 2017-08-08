@@ -191,7 +191,7 @@ function KRBWC__render_general_settings_page_html ()
         </tr>
 
         <tr valign="top">
-          <th scope="row">Payment expirtion time (minutes):</th>
+          <th scope="row">Payment expiration time (minutes):</th>
           <td>
             <input type="text" name="assigned_address_expires_in_mins" value="<?php echo $krbwc_settings['assigned_address_expires_in_mins']; ?>" size="4" />
             <p class="description">
